@@ -1,499 +1,535 @@
 <!DOCTYPE html>
 <html lang="ja" prefix="og: http://ogp.me/ns#">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="SPOTSとはさまざまなパワーポイントのビジネス資料を、プロのデザイナーがリ・デザイン（再デザイン）を行う
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="SPOTSとはさまざまなパワーポイントのビジネス資料を、プロのデザイナーがリ・デザイン（再デザイン）を行う
         サービスです。デザイン制作における豊富な実績と経験がありますので、確かなクオリティをご提供いたします。">
-        <title>SPOTS ｜ パワポ資料リ・デザインサービス</title>
-        <meta property="og:title" content="SPOTS ｜ パワポ資料リ・デザインサービス" />
-        <meta property="og:type" content="blog" />
-        <meta property="og:url" content="/" />
-        <meta property="og:image" content="" />
-        <!-- <meta property="fb:app_id" content="984220408358389" /> -->
-        <link rel="stylesheet" media="all" href="css/slick-theme.css" />
-        <link rel="stylesheet" media="all" href="css/slick.css" />
-        <link rel="stylesheet" media="all" href="css/format.css" />
-        <link rel="stylesheet" media="all" href="css/style.css" />
-        <link rel="stylesheet" media="all" href="css/animation.css" />
-        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-        <script src = "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"> </script> 
-        <script src = "https://cdnjs.cloudflare.com /ajax/libs/gsap/3.9.1/ScrollTrigger.min.js "> </script> 
-        <!-- <script src="js/gsap.min.js"></script>
+    <title>SPOTS ｜ パワポ資料リ・デザインサービス</title>
+    <meta property="og:title" content="SPOTS ｜ パワポ資料リ・デザインサービス" />
+    <meta property="og:type" content="blog" />
+    <meta property="og:url" content="/" />
+    <meta property="og:image" content="" />
+    <!-- <meta property="fb:app_id" content="984220408358389" /> -->
+    <link rel="stylesheet" media="all" href="css/slick-theme.css" />
+    <link rel="stylesheet" media="all" href="css/slick.css" />
+    <link rel="stylesheet" media="all" href="css/format.css" />
+    <link rel="stylesheet" media="all" href="css/style.css" />
+    <link rel="stylesheet" media="all" href="css/animation.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"> </script>
+    <script src="https://cdnjs.cloudflare.com /ajax/libs/gsap/3.9.1/ScrollTrigger.min.js "> </script>
+    <!-- <script src="js/gsap.min.js"></script>
         <script src="js/ScrollTrigger.min.js"></script> -->
-        <script src="js/ofi.min.js"></script>
-        <script src="js/jquery.matchHeight-min.js"></script>
-        <script src="js//slick.min.js"></script>
-        <script src="js/common.js"></script>
-        <script src="js/sTrigger.js"></script>
-        <script>
+    <script src="js/ofi.min.js"></script>
+    <script src="js/jquery.matchHeight-min.js"></script>
+    <script src="js//slick.min.js"></script>
+    <script src="js/common.js"></script>
+    <script src="js/sTrigger.js"></script>
+    <script>
         var ua = navigator.userAgent;
         if (ua.indexOf('iPhone') > 0 || ua.indexOf('iPod') > 0 || (ua.indexOf('Android') > 0 && ua.indexOf('Mobile') > 0) || (ua.indexOf('windows') > 0 && ua.indexOf('phone') > 0) || (ua.indexOf('firefox') > 0 && ua.indexOf('mobile') > 0)) {
             document.write('<link rel="stylesheet" href="css/sp.css">');
             /* document.write('<link rel="stylesheet" href="css/underlayer_sp.css">'); */
         } else { }
     </script>
-    </head>
-    <body class="spots_body">
-        <div class="wrapper">
-            <div class="fixed_contact">
-                <a href="">
-                    <div class="fixed_contact_in">
-                        <figure class="fixedCircle"><img src="img/common/mainCircle.png" alt="お問い合わせ"></figure>
-                        <figure class="fixedMail"><img src="img/common/mainCircle_mail.png" alt="お問い合わせ"></figure>
+</head>
+
+<body class="spots_body">
+    <div class="wrapper">
+        <div class="fixed_contact">
+            <a href="">
+                <div class="fixed_contact_in">
+                    <figure class="fixedCircle"><img src="img/common/mainCircle.png" alt="お問い合わせ"></figure>
+                    <figure class="fixedMail"><img src="img/common/mainCircle_mail.png" alt="お問い合わせ"></figure>
+                </div>
+            </a>
+        </div>
+        <!-- メインビジュアル -->
+        <main class="mv">
+            <figure class="mv_logo"><img src="img/mv/mainLogo.png" alt="SPOTSロゴ"></figure>
+        </main>
+        <!-- メインビジュアル end-->
+        <!-- MV下のスライダー -->
+        <section class="mvSlider">
+            <div class="mvSlider_area">
+                <div class="mvSlider_area__in silickSlider1">
+                    <div class="mvSlider_imgBox"><img src="img/mv/mainPt1.png" alt="パワーポイントのリ・デザイン"></div>
+                    <div class="mvSlider_imgBox"><img src="img/mv/mainPt2.png" alt="パワーポイントのリ・デザイン"></div>
+                    <div class="mvSlider_imgBox"><img src="img/mv/mainPt3.png" alt="パワーポイントのリ・デザイン"></div>
+                    <div class="mvSlider_imgBox"><img src="img/mv/mainPt1.png" alt="パワーポイントのリ・デザイン"></div>
+                    <div class="mvSlider_imgBox"><img src="img/mv/mainPt2.png" alt="パワーポイントのリ・デザイン"></div>
+                </div>
+            </div>
+        </section>
+        <!-- MV下のスライダー end-->
+        <!-- メニュー -->
+        <header id="header-main" class="protect header_top header2">
+            <div id="nav-drawer-box">
+                <input id="nav-input" type="checkbox" class="nav-unshown" style="display:none;">
+                <label id="nav-open" for="nav-input">
+                    <div class="btn-trigger" id="btn19">
+                        <span></span>
+                        <span></span>
+                        <span></span>
                     </div>
-                </a>
+                </label>
+                <label id="nav-close" for="nav-input"></label>
+                <div class=" nav-content ">
+                    <nav class="global-nav">
+                        <ul class="global-box">
+                            <li class="global-box__list"><a href="#"
+                                    class="global-box__list--home global-box__list--text list_anime op_link">トップ</a>
+                            </li>
+                            <li class="global-box__list">
+                                <a href="#about_top"
+                                    class="global-box__list--about global-box__list--text list_anime op_link">SPOTSとは</a>
+                            </li>
+                            <li class="global-box__list">
+                                <a href="#case_top"
+                                    class="global-box__list--case global-box__list--text list_anime op_link">デザイン制作事例</a>
+                            </li>
+                            <li class="global-box__list">
+                                <a href="#category_top"
+                                    class="global-box__list--category global-box__list--text list_anime op_link">制作カテゴリー</a>
+                            </li>
+                            <li class="global-box__list">
+                                <a href="#plan_top"
+                                    class="global-box__list--plan global-box__list--text list_anime op_link">料金プラン</a>
+                            </li>
+                            <li class="global-box__list">
+                                <a href="#flow_top"
+                                    class="global-box__list--flow global-box__list--text list_anime op_link">制作フロー</a>
+                            </li>
+                            <li class="global-box__list">
+                                <a href="#fqa_top"
+                                    class="global-box__list--fqa global-box__list--text list_anime op_link">よくある質問</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
             </div>
-            <!-- メインビジュアル -->
-            <main class="mv">
-<figure class="mv_logo"><img src="img/mv/mainLogo.png" alt="SPOTSロゴ"></figure>
-            </main>
-            <!-- メインビジュアル end-->
-<!-- MV下のスライダー -->
-<section class="mvSlider">
-  <div class="mvSlider_area">
-    <div class="mvSlider_area__in silickSlider1">
-      <div class="mvSlider_imgBox"><img src="img/mv/mainPt1.png" alt="パワーポイントのリ・デザイン"></div>
-      <div class="mvSlider_imgBox"><img src="img/mv/mainPt2.png" alt="パワーポイントのリ・デザイン"></div>
-      <div class="mvSlider_imgBox"><img src="img/mv/mainPt3.png" alt="パワーポイントのリ・デザイン"></div>
-      <div class="mvSlider_imgBox"><img src="img/mv/mainPt1.png" alt="パワーポイントのリ・デザイン"></div>
-      <div class="mvSlider_imgBox"><img src="img/mv/mainPt2.png" alt="パワーポイントのリ・デザイン"></div>
-    </div>
-  </div>
-</section>
-<!-- MV下のスライダー end-->
-<!-- メニュー -->
-<header id="header-main" class="protect header_top header2">
-    <div id="nav-drawer-box">
-        <input id="nav-input" type="checkbox" class="nav-unshown" style="display:none;">
-        <label id="nav-open" for="nav-input">
-            <div class="btn-trigger" id="btn19">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-        </label>
-        <label id="nav-close" for="nav-input"></label>
-        <div class=" nav-content ">
-            <nav class="global-nav">
-                <ul class="global-box">
-                    <li class="global-box__list"><a href="#"
-                            class="global-box__list--home global-box__list--text list_anime op_link">トップ</a></li>
-                    <li class="global-box__list">
-                        <a href="#about_top" class="global-box__list--about global-box__list--text list_anime op_link">SPOTSとは</a></li>
-                    <li class="global-box__list">
-                        <a href="#case_top" class="global-box__list--case global-box__list--text list_anime op_link">デザイン制作事例</a></li>
-                    <li class="global-box__list">
-                        <a href="#category_top" class="global-box__list--category global-box__list--text list_anime op_link">制作カテゴリー</a></li>
-                    <li class="global-box__list">
-                        <a href="#plan_top" class="global-box__list--plan global-box__list--text list_anime op_link">料金プラン</a></li>
-                    <li class="global-box__list">
-                        <a href="#flow_top" class="global-box__list--flow global-box__list--text list_anime op_link">制作フロー</a></li>
-                    <li class="global-box__list">
-                        <a href="#fqa_top" class="global-box__list--fqa global-box__list--text list_anime op_link">よくある質問</a></li>
-                </ul>
-            </nav>
-        </div>
-    </div>
-</header>
-<!-- メニュー end-->
-<!-- SPOTSとは -->
-<div id="about_top" class="negaMa"></div>
-<section class="about">
-    <article class="aboutArea">
+        </header>
+        <!-- メニュー end-->
+        <!-- SPOTSとは -->
+        <div id="about_top" class="negaMa"></div>
+        <section class="about">
+            <article class="aboutArea">
 
-            <div class="aboutArea_in">
+                <div class="aboutArea_in">
 
-                <div class="aboutArea_inbox">
-                    <h2 class="aboutArea_inbox__title">
-                        デザインの力で ファイルの変更 ファイルの変更技とコミット--アメンど
-                        <span class="aboutArea_inbox__title2">今ある資料の効果を</span>
-                    </h2>
-                    <p class="aboutArea_inbox__text">
-                        パワーポイントのプレゼン資料や
-                        サービス紹介資料などあらゆるビ
-                        ジネス資料をプロのデザイナーが
-                        リデザインします</p>
-                    <figure class="aboutArea_inbox__img aboutBox__img1"><img src="img/about/aboutPt1.jpg" alt="パワーポイントのリ・デザイン事例"></figure>
+                    <div class="aboutArea_inbox">
+                        <h2 class="aboutArea_inbox__title">
+                            デザインの力で ファイルの変更 テスト
+                            <span class="aboutArea_inbox__title2">今ある資料の効果を</span>
+                        </h2>
+                        <p class="aboutArea_inbox__text">
+                            パワーポイントのプレゼン資料や
+                            サービス紹介資料などあらゆるビ
+                            ジネス資料をプロのデザイナーが
+                            リデザインします</p>
+                        <figure class="aboutArea_inbox__img aboutBox__img1"><img src="img/about/aboutPt1.jpg"
+                                alt="パワーポイントのリ・デザイン事例"></figure>
+                    </div>
+
+                    <figure class="aboutArea__titleImg"><img src="img/about/aboutTitle.png" alt="最適化"></figure>
+
+                    <div class="aboutArea_inBox">
+                        <figure class="aboutArea_inbox__img aboutBox__img2"><img src="img/about/aboutPt2.jpg"
+                                alt="パワーポイントのリ・デザイン事例"></figure>
+                        <figure class="aboutArea_inbox__img aboutBox__img3"><img src="img/about/aboutPt3.jpg"
+                                alt="パワーポイントのリ・デザイン事例"></figure>
+                        <h2 class="aboutArea_inbox__title2">しませんか?</h2>
+                    </div>
+
                 </div>
 
-                <figure class="aboutArea__titleImg"><img src="img/about/aboutTitle.png" alt="最適化"></figure>
+                <p class="aboutArea__text">SPOTSとはさまざまなパワーポイントのビジネス資料を、プロのデザイナーがリ・デザイン（再デザイン）を行う
+                    サービスです。デザイン制作における豊富な実績と経験がありますので、確かなクオリティをご提供いたします。
+                    リ・デザインのみのサービスなので企画構成にかかる工数を大幅にカット、リーズナブルな価格を実現しています。
+                </p>
+            </article>
 
-                <div class="aboutArea_inBox">
-                    <figure class="aboutArea_inbox__img aboutBox__img2"><img src="img/about/aboutPt2.jpg" alt="パワーポイントのリ・デザイン事例"></figure>
-                    <figure class="aboutArea_inbox__img aboutBox__img3"><img src="img/about/aboutPt3.jpg" alt="パワーポイントのリ・デザイン事例"></figure>
-                    <h2 class="aboutArea_inbox__title2">しませんか?</h2>
+            <article class="aboutArea_plan">
+                <div class="aboutArea_planBox">
+                    <div class="aboutArea_planBox_in">
+                        <h2 class="aboutArea_planBox_in__title"><img src="img/common/commonLogo.png" alt="SPOTS"></h2>
+                        <h3 class="aboutArea_planBox_in__titleSub">依頼は簡単!</h3>
+                        <p class="aboutArea_planBox_in__text">
+                            今お使いのパワポ資料を提出していただくだけ</p>
+                        <p class="aboutArea_planBox_in__textSub">必ず元になるパワーポイント資料をご提供ください
+                        </p>
+                        <a href="" class="common_contact__btn aboutArea_contact__btn op_link">資料請求・お問い合わせ</a>
+                    </div>
+                    <div class="aboutArea_planBox_in aboutArea_planBox_in2">
+                        <div class="aboutArea_planBox_in2_content">
+                            <h4 class="aboutArea_planBox_in2_content__title">パワーポイント資料<span
+                                    class="aboutArea_planBox_in2_content__titleBgb">リデザイン制作&nbsp;&nbsp;一式</span></h4>
+                            <h2 class="aboutArea_planBox_in2_content__price">基本料金<span
+                                    class="aboutArea_planBox_in2_content__priceMin">60,000</span>円</h2>
+                            <p class="aboutArea_planBox_in2__text">（10ページまでのデザイン料金を含みます）</p>
+                            <p class="aboutArea_planBox_in__an">制作事例に掲載OKの方はさらに<span class="textRed">10,000円お値引き</span>
+                            </p>
+                        </div>
+
+                        <div class="aboutArea_planBox_in2_content2">
+                            <div class="aboutArea__plus">+</div>
+                            <h4 class="aboutArea_planBox_in2_content2__plice">11ページ以降<span
+                                    class="content2_plice__main">5,000</span><span class="textRed">円</span>&nbsp;/ 1ページ
+                            </h4>
+                        </div>
+                    </div>
                 </div>
+            </article>
+        </section>
+        <!-- SPOTSとは end-->
+        <!-- 制作事例 -->
+        <div id="case_top" class="negaMa"></div>
+        <section class="case">
+            <article class="caseArea caseArea1">
+                <figure class=""><img src="img/case1/caseTitle.png" alt="制作事例"></figure>
+                <div class="caseArea_before caseArea_before1">
+                    <div class="caseArea_before_box">
+                        <p class="caseArea_common_text caseArea_before_text1">事例1</p>
+                        <p class="caseArea_common_text">会社案内</p>
+                    </div>
+                    <ul class="case_thumb">
+                        <li class="case_thumb1"><img src="img/case1/before1.jpg" alt="事例１会社案内before" /></li>
+                        <li class="case_thumb2"><img src="img/case1/before2.jpg" alt="事例2会社案内before" /></li>
+                        <li class="case_thumb3"><img src="img/case1/before3.jpg" alt="事例3会社案内before" /></li>
+                        <li class="case_thumb4"><img src="img/case1/before4.jpg" alt="事例4会社案内before" /></li>
+                    </ul>
+                </div>
+                <div class="case_after case_after1">
+                    <div class="case_slide">
+                        <ul class="case_main case_main1">
+                            <li class="case_item1"><img src="img/case1/case1.jpg" alt="事例１会社案内after" /></li>
+                            <li class="case_item2"><img src="img/case1/case2.jpg" alt="事例2会社案内after" /></li>
+                            <li class="case_item3"><img src="img/case1/case3.jpg" alt="事例3会社案内after" /></li>
+                            <li class="case_item4"><img src="img/case1/case4.jpg" alt="事例4会社案内after" /></li>
+                        </ul>
+                        <ul class="case_main case_main2">
+                            <li class="case_item1"><img src="img/case1/case1.jpg" alt="事例１会社案内after" /></li>
+                            <li class="case_item2"><img src="img/case1/case2.jpg" alt="事例2会社案内after" /></li>
+                            <li class="case_item3"><img src="img/case1/case3.jpg" alt="事例3会社案内after" /></li>
+                            <li class="case_item4"><img src="img/case1/case4.jpg" alt="事例4会社案内after" /></li>
+                        </ul>
+                        <ul class="case_main case_main3">
+                            <li class="case_item1"><img src="img/case1/case1.jpg" alt="事例１会社案内after" /></li>
+                            <li class="case_item2"><img src="img/case1/case2.jpg" alt="事例2会社案内after" /></li>
+                            <li class="case_item3"><img src="img/case1/case3.jpg" alt="事例3会社案内after" /></li>
+                            <li class="case_item4"><img src="img/case1/case4.jpg" alt="事例4会社案内after" /></li>
+                        </ul>
+                    </div>
+                    <div class="caseType">
+                        <p class="caseType_text">Type A</p>
+                    </div>
+                </div>
+            </article>
 
+            <article class="caseArea caseArea2">
+                <div class="caseArea_before caseArea_before2">
+                    <div class="caseArea_before_box">
+                        <p class="caseArea_common_text caseArea_before_text1">事例2</p>
+                        <p class="caseArea_common_text">サービス資料</p>
+                    </div>
+                    <ul class="case_thumb">
+                        <li class="case_thumb1"><img src="img/case1/before1.jpg" alt="事例１会社案内before" /></li>
+                        <li class="case_thumb2"><img src="img/case1/before2.jpg" alt="事例2会社案内before" /></li>
+                        <li class="case_thumb3"><img src="img/case1/before3.jpg" alt="事例3会社案内before" /></li>
+                        <li class="case_thumb4"><img src="img/case1/before4.jpg" alt="事例4会社案内before" /></li>
+                    </ul>
+                </div>
+                <div class="case_after case_after1">
+                    <div class="case_slide">
+                        <ul class="case_main case_main1">
+                            <li class="case_item1"><img src="img/case1/case1.jpg" alt="事例１会社案内after" /></li>
+                            <li class="case_item2"><img src="img/case1/case2.jpg" alt="事例2会社案内after" /></li>
+                            <li class="case_item3"><img src="img/case1/case3.jpg" alt="事例3会社案内after" /></li>
+                            <li class="case_item4"><img src="img/case1/case4.jpg" alt="事例4会社案内after" /></li>
+                        </ul>
+                    </div>
+                    <div class="caseType">
+                        <p class="caseType_text">Type B</p>
+                    </div>
+                </div>
+            </article>
+        </section>
+        <!-- 制作事例 end-->
+        <!-- 制作カテゴリー -->
+        <div id="category_top" class="negaMa"></div>
+        <section class="category">
+            <article class="categoryArea">
+                <h2 class="category__title"><img src="img/case1/categoryTitle.png" alt="制作カテゴリー"></h2>
+                <h3 class="category__lead">さまざまな業種や種類の資料作成に対応できます</h3>
+                <div class="categoryArea_box">
+                    <ul class="categoryArea_boxType">
+                        <li class="categoryArea_boxType__text categoryArea_boxType__textOn">営業資料<br>
+                            サービス提案資料</li>
+                        <li class="categoryArea_boxType__text">媒体資料</li>
+                        <li class="categoryArea_boxType__text">プレゼン資料</li>
+                        <li class="categoryArea_boxType__text">企画書<br>
+                            提案資料</li>
+                    </ul>
+                    <div class="categoryArea_boxDocument">
+                        <figure class="categoryArea_boxDocument__img categoryDocument1"><img
+                                src="img/case1/categoryCase1.jpg" alt="SPOTS決算説明資料"></figure>
+                        <figure class="categoryArea_boxDocument__img categoryDocument2"><img
+                                src="img/case1/categoryCase2.jpg" alt="SPOTS採用説明会"></figure>
+                        <figure class="categoryArea_boxDocument__img categoryDocument3"><img
+                                src="img/case1/categoryCase1.jpg" alt="SPOTS決算説明資料"></figure>
+                        <figure class="categoryArea_boxDocument__img categoryDocument4"><img
+                                src="img/case1/categoryCase2.jpg" alt="SPOTS採用説明会"></figure>
+                    </div>
+                </div>
+                <table class="categoryArea_table">
+                    <tbody>
+                        <tr>
+                            <td>営業資料</td>
+                            <td>企画書</td>
+                            <td>講演資料</td>
+                            <td>セミナー資料</td>
+                        </tr>
+                        <tr>
+                            <td>提案書</td>
+                            <td>事業計画書</td>
+                            <td>採用説明会資料</td>
+                            <td>マニュアル</td>
+                        </tr>
+                        <tr>
+                            <td>プレゼン資料</td>
+                            <td>媒体資料</td>
+                            <td>学会発表資料</td>
+                            <td>ホワイトペーパー</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </article>
+        </section>
+        <!-- 制作カテゴリー end-->
+        <!-- 料金プラン -->
+        <div id="plan_top" class="negaMa"></div>
+        <section class="plan">
+            <article class="planArea">
+                <h2 class="planArea_box__title"><img src="img/plan/planTitle.png" alt="料金プラン"></h2>
+                <div class="planArea_box">
+                    <div class="planArea_box_in">
+                        <h4 class="planArea_box_in__title">ルールは1つ</h4>
+                        <h2 class="planArea_box_in__titleSub">元になるパワーポイント<br>資料をご提供ください</h2>
+                        <p class="planArea_box_in__text">
+                            テキストや内容の企画構成は行いません。</p>
+                        <div class="plan_line"></div>
+                        <h3 class="planArea_box_in__titleSub">今ある資料のデザインを<br>作り直すサービスです
+                        </h3>
+                        <p class="planArea_box_in__text ">デザイン制作のみに特化したサービスです。<br>企画構成を含まないので大幅に工数をカットし
+                            低価格でスピード納品を実現しました。</p>
+                        <p class="planArea_box_in__an ">制作に使用するイラストや画像素材はフリー素材での対応となります。<br>
+                            イラスト書き起こし、写真撮影は行いません。</p>
+                    </div>
+                    <div class="aboutArea_planBox_in planArea_box_in planArea_box_in2">
+                        <div class="aboutArea_planBox_in2_content planArea_box_in2_content">
+                            <h4 class="aboutArea_planBox_in2_content__title planArea_box_in2_content__title">
+                                パワーポイント資料<span
+                                    class="aboutArea_planBox_in2_content__titleBgb planArea_box_in2_content__titleBgb">リデザイン制作
+                                    一式</span></h4>
+                            <h2 class="aboutArea_planBox_in2_content__price planArea_box_in2_content__price">基本料金<span
+                                    class="aboutArea_planBox_in2_content__priceMin planArea_box_in2_content__priceMin">60,000</span>円
+                            </h2>
+                            <p class="planArea_box_in2__text">（10ページまでのデザイン料金を含みます）</p>
+                            <p class="aboutArea_planBox_in__an planArea_box_in__an">制作事例に掲載OKの方はさらに<span
+                                    class="textRed">10,000円お値引き</span></p>
+                        </div>
+
+                        <div class="aboutArea_planBox_in2_content2 planArea_box_in2_content2">
+                            <div class="aboutArea__plus planArea__plus">+</div>
+                            <h4 class="aboutArea_planBox_in2_content2__plice planArea_box_in2_content2__plice">
+                                11ページ以降<span class="content2_plice__main content2_plice__main">5,000</span><span
+                                    class="textRed">円</span>/ 1ページ</h4>
+                            <p class="planArea_box_in2_content2__ex">【例.15ページの場合】<br>
+                                基本料金60,000円(10ページ)&nbsp;&nbsp;＋&nbsp;&nbsp;25,000円(追加5ページ)<br>
+                                ＝&nbsp;&nbsp;85,000円(料金は税別価格です) </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="planArea__btnBox">
+                    <a href="" class="common_application__btn planArea__application__btn">資料請求・お問い合わせ</a>
+                    <a href="" class="common_contact__btn planArea__contact__btn">お申し込み</a>
+                </div>
+            </article>
+        </section>
+        <!-- 料金プラン end-->
+        <!-- 制作フロー -->
+        <div id="flow_top" class="negaMa"></div>
+        <section class="flow">
+            <article class="flowArea">
+                <h2 class="flowArea__title"><img src="img/flow/flowTitle.png" alt="制作フロー"></h2>
+
+                <div class="flow_taskArea">
+                    <p class="flow_taskArea__task">タスク:</p>
+                    <p class="flow_taskArea__cus"><span class="flow_taskArea__circle circle_w"></span>お客様</p>
+                    <p class="flow_taskArea__spots"><span class="flow_taskArea__circle circle_n"></span>SPOTS</p>
+                </div>
+                <div class="flowArea_box">
+                    <div class="flowArea_box_content">
+                        <h4 class="flowArea_box_content__title">お申し込み</h4>
+                        <p class="flowArea_box_content__text">お申し込みフォームからサービス利用規約に同意いただきお申し込みいただきます。</p>
+                    </div>
+
+                    <div class="flowArea_box_content">
+                        <h4 class="flowArea_box_content__title">ヒアリング</h4>
+                        <p class="flowArea_box_content__text">お申し込みをいただきましたら担当よりご連絡差し上げます。
+                            その際に現状のパワーポイントデータをいただき、詳細をお伺いさせていただきます。</p>
+                    </div>
+
+                    <div class="flowArea_box_content">
+                        <h4 class="flowArea_box_content__title">初稿の提出</h4>
+                        <p class="flowArea_box_content__text">初稿は2ページほどお出ししてデザインのご確認をしていただきます。
+                            全体のトーン＆マナーとして問題なければ残りのデザインを進めさせていただきます。</p>
+                    </div>
+
+                    <div class="flowArea_box_content">
+                        <h4 class="flowArea_box_content__title">残りページ提出</h4>
+                        <p class="flowArea_box_content__text">全てのデザインのご連絡を差し上げますので、ご確認ください。</p>
+                    </div>
+
+                    <div class="flowArea_box_content">
+                        <h4 class="flowArea_box_content__title">確認・修正</h4>
+                        <p class="flowArea_box_content__text">デザインをご確認いただき必要に応じて修正指示をお出しください。</p>
+                    </div>
+
+                    <div class="flowArea_box_content">
+                        <h4 class="flowArea_box_content__title">納品</h4>
+                        <p class="flowArea_box_content__text">修正作業を行った後、校了指示をいただきましたらデータ納品となります。</p>
+                    </div>
+
+                    <div class="flowArea_box_content">
+                        <h4 class="flowArea_box_content__title">検収・お支払い</h4>
+                        <p class="flowArea_box_content__text">納品データをいただき、代金をお支払いいただきます。
+                            お支払い方法はクレジット決済または銀行振込になります。</p>
+                    </div>
+                </div>
+            </article>
+        </section>
+        <!-- 制作フロー end-->
+
+        <!-- よくある質問 -->
+        <div id="fqa_top" class="negaMa"></div>
+        <section class="question">
+            <h2 class="question__title ">よくある質問</h2>
+            <div class="questionArea">
+                <dl class="questionBox">
+                    <figure class="question_nunber"><img src="img/faq/1.png"></figure>
+                    <dt class="questionText">
+                        <p class="questionText__q">なぜこんなに安くできるの？クオリティは大丈夫？</p>
+                    </dt>
+                    <dd class="questionAnswer">
+                        <p class="questionAnswer__text">
+                            パワポスポットでは企画構成を行わず、現状のパワーポイント資料を元にデザインをブラッシュアップし
+                            ます。なので一般的には、営業・ディレクター・デザイナー・進行管理など複数のスペシャリストが携わ
+                            りますが、当サービスではデザイナーのみで人件費を大幅にカットできていて、高いデザインクオリティ
+                            のご提供を実現しています。
+                        </p>
+                    </dd>
+                </dl>
+                <dl class="questionBox">
+                    <figure class="question_nunber"><img src="img/faq/2.png"></figure>
+                    <dt class="questionText">
+                        <p class="questionText__q">発注後から納品までの期間はどの程度ですか？</p>
+                    </dt>
+                    <dd class="questionAnswer">
+                        <p class="questionAnswer__text">
+                            発注内容によって異なりますが10ページのご依頼の場合、初稿のご提出は約5~8営業日、納品目安が約10~15営業日が目安となります。
+                        </p>
+                    </dd>
+                </dl>
+                <dl class="questionBox">
+                    <figure class="question_nunber"><img src="img/faq/3.png"></figure>
+                    <dt class="questionText">
+                        <p class="questionText__q">修正回数に制限はありますか？</p>
+                    </dt>
+                    <dd class="questionAnswer">
+                        <p class="questionAnswer__text">
+                            原則、デザインに関する修正は3回、テキストなどの簡易な修正は5回までとなっております。
+                        </p>
+                    </dd>
+                </dl>
+                <dl class="questionBox">
+                    <figure class="question_nunber"><img src="img/faq/4.png"></figure>
+                    <dt class="questionText">
+                        <p class="questionText__q">決算資料のデザインを依頼したいのですが、機密情報が含まれています。
+                            機密情報の取り扱いはどうなっていますか？</p>
+                    </dt>
+                    <dd class="questionAnswer">
+                        <p class="questionAnswer__text">
+                            制作着手前の秘密保持契約の締結が可能ですので、事前にご契約が必要な場合はその旨をお伝えください。
+                        </p>
+                    </dd>
+                </dl>
+                <dl class="questionBox">
+                    <figure class="question_nunber"><img src="img/faq/5.png"></figure>
+                    <dt class="questionText">
+                        <p class="questionText__q">編集可能なデータで納品していただくことは可能でしょうか？</p>
+                    </dt>
+                    <dd class="questionAnswer">
+                        <p class="questionAnswer__text">
+                            はい。弊社では基本的にPowerPointデータで納品させていただくため、お客様側での編集が可能です。
+                            一部、テキストを画像化している素材は編集が難しい場合がございますので、編集したい箇所はあらかじめお知らせください
+                        </p>
+                    </dd>
+                </dl>
+                <dl class="questionBox">
+                    <figure class="question_nunber"><img src="img/faq/6.png"></figure>
+                    <dt class="questionText">
+                        <p class="questionText__q">納期の短縮は可能？</p>
+                    </dt>
+                    <dd class="questionAnswer">
+                        <p class="questionAnswer__text">
+                            ご依頼のスライド数や内容によりますが、なるべく柔軟に対応したいと思います。
+                            詳しくはお問い合わせください。
+                        </p>
+                    </dd>
+                </dl>
+                <dl class="questionBox">
+                    <figure class="question_nunber"><img src="img/faq/7.png"></figure>
+                    <dt class="questionText">
+                        <p class="questionText__q">支払方法を教えてください。</p>
+                    </dt>
+                    <dd class="questionAnswer">
+                        <p class="questionAnswer__text">
+                            お支払い方法は検収完了後にWebでのクレジット決済または請求書による銀行振込になります。
+                        </p>
+                    </dd>
+                </dl>
             </div>
 
-            <p class="aboutArea__text">SPOTSとはさまざまなパワーポイントのビジネス資料を、プロのデザイナーがリ・デザイン（再デザイン）を行う
-                サービスです。デザイン制作における豊富な実績と経験がありますので、確かなクオリティをご提供いたします。
-                リ・デザインのみのサービスなので企画構成にかかる工数を大幅にカット、リーズナブルな価格を実現しています。
-                </p>
-</article>
-
-<article class="aboutArea_plan">
-    <div class="aboutArea_planBox">
-        <div class="aboutArea_planBox_in">
-            <h2 class="aboutArea_planBox_in__title"><img src="img/common/commonLogo.png" alt="SPOTS"></h2>
-            <h3 class="aboutArea_planBox_in__titleSub">依頼は簡単!</h3>
-            <p class="aboutArea_planBox_in__text">
-                今お使いのパワポ資料を提出していただくだけ</p>
-            <p class="aboutArea_planBox_in__textSub">必ず元になるパワーポイント資料をご提供ください
-            </p>
-            <a href="" class="common_contact__btn aboutArea_contact__btn op_link">資料請求・お問い合わせ</a>
-        </div>
-        <div class="aboutArea_planBox_in aboutArea_planBox_in2">
-            <div class="aboutArea_planBox_in2_content">
-                <h4 class="aboutArea_planBox_in2_content__title">パワーポイント資料<span class="aboutArea_planBox_in2_content__titleBgb">リデザイン制作&nbsp;&nbsp;一式</span></h4>
-                <h2 class="aboutArea_planBox_in2_content__price">基本料金<span class="aboutArea_planBox_in2_content__priceMin">60,000</span>円</h2>
-                <p class="aboutArea_planBox_in2__text">（10ページまでのデザイン料金を含みます）</p>
-            <p class="aboutArea_planBox_in__an">制作事例に掲載OKの方はさらに<span class="textRed">10,000円お値引き</span></p>
+        </section>
+        <!-- よくある質問 end-->
+        <!-- フッター -->
+        <footer class="footer">
+            <article class="footerArea">
+                <div class="footerArea_logo">
+                    <figure class="footer_logo"><img src="img/mv/mainLogo.png" alt="SPOTSロゴ"></figure>
+                </div>
+                <div class="footerArea__btnBox">
+                    <a href="" class="common_application__btn footerArea__application__btn">資料請求・お問い合わせ</a>
+                    <a href="" class="common_contact__btn footerArea__contact__btn">お申し込み</a>
+                </div>
+            </article>
+            <div class="footerBox">
+                <div class="footerBox_in">
+                    <ul class="footerBox_menu">
+                        <li class="footerBox_menu__text"><a href="" class="footerBox_menu__link">会社概要</a></li>
+                        <li class="footerBox_menu__text"><a href="" class="footerBox_menu__link">プライバシーポリシー</a></li>
+                    </ul>
+                    <p class="copy">&copy; SPOTS. All Rights Reserved.</p>
+                </div>
             </div>
-            
-            <div class="aboutArea_planBox_in2_content2">
-                <div class="aboutArea__plus">+</div>
-                <h4 class="aboutArea_planBox_in2_content2__plice">11ページ以降<span class="content2_plice__main">5,000</span><span class="textRed">円</span>&nbsp;/ 1ページ</h4>
-            </div>
-        </div>
-    </div>
-</article>
-</section>
-<!-- SPOTSとは end-->
-<!-- 制作事例 -->
-<div id="case_top" class="negaMa"></div>
-<section class="case">
-    <article class="caseArea caseArea1">
-      <figure class=""><img src="img/case1/caseTitle.png" alt="制作事例"></figure>
-      <div class="caseArea_before caseArea_before1">
-        <div class="caseArea_before_box">
-          <p class="caseArea_common_text caseArea_before_text1">事例1</p>
-          <p class="caseArea_common_text">会社案内</p>
-        </div>
-        <ul class="case_thumb">
-            <li class="case_thumb1"><img src="img/case1/before1.jpg" alt="事例１会社案内before" /></li>
-            <li class="case_thumb2"><img src="img/case1/before2.jpg" alt="事例2会社案内before" /></li>
-            <li class="case_thumb3"><img src="img/case1/before3.jpg" alt="事例3会社案内before" /></li>
-            <li class="case_thumb4"><img src="img/case1/before4.jpg" alt="事例4会社案内before" /></li>
-        </ul>
-      </div>
-      <div class="case_after case_after1">
-        <div class="case_slide">
-          <ul class="case_main case_main1">
-            <li class="case_item1"><img src="img/case1/case1.jpg" alt="事例１会社案内after" /></li>
-            <li class="case_item2"><img src="img/case1/case2.jpg" alt="事例2会社案内after" /></li>
-            <li class="case_item3"><img src="img/case1/case3.jpg" alt="事例3会社案内after" /></li>
-            <li class="case_item4"><img src="img/case1/case4.jpg" alt="事例4会社案内after" /></li>
-          </ul>
-          <ul class="case_main case_main2">
-            <li class="case_item1"><img src="img/case1/case1.jpg" alt="事例１会社案内after" /></li>
-            <li class="case_item2"><img src="img/case1/case2.jpg" alt="事例2会社案内after" /></li>
-            <li class="case_item3"><img src="img/case1/case3.jpg" alt="事例3会社案内after" /></li>
-            <li class="case_item4"><img src="img/case1/case4.jpg" alt="事例4会社案内after" /></li>
-          </ul>
-          <ul class="case_main case_main3">
-            <li class="case_item1"><img src="img/case1/case1.jpg" alt="事例１会社案内after" /></li>
-            <li class="case_item2"><img src="img/case1/case2.jpg" alt="事例2会社案内after" /></li>
-            <li class="case_item3"><img src="img/case1/case3.jpg" alt="事例3会社案内after" /></li>
-            <li class="case_item4"><img src="img/case1/case4.jpg" alt="事例4会社案内after" /></li>
-          </ul>
-        </div>
-        <div class="caseType">
-          <p class="caseType_text">Type A</p>
-        </div>
-      </div>
-    </article>
+        </footer>
+        <!-- フッター end-->
 
-    <article class="caseArea caseArea2">
-      <div class="caseArea_before caseArea_before2">
-        <div class="caseArea_before_box">
-          <p class="caseArea_common_text caseArea_before_text1">事例2</p>
-          <p class="caseArea_common_text">サービス資料</p>
-        </div>
-        <ul class="case_thumb">
-          <li class="case_thumb1"><img src="img/case1/before1.jpg" alt="事例１会社案内before" /></li>
-          <li class="case_thumb2"><img src="img/case1/before2.jpg" alt="事例2会社案内before" /></li>
-          <li class="case_thumb3"><img src="img/case1/before3.jpg" alt="事例3会社案内before" /></li>
-          <li class="case_thumb4"><img src="img/case1/before4.jpg" alt="事例4会社案内before" /></li>
-        </ul>
-      </div>
-      <div class="case_after case_after1">
-        <div class="case_slide">
-          <ul class="case_main case_main1">
-            <li class="case_item1"><img src="img/case1/case1.jpg" alt="事例１会社案内after" /></li>
-            <li class="case_item2"><img src="img/case1/case2.jpg" alt="事例2会社案内after" /></li>
-            <li class="case_item3"><img src="img/case1/case3.jpg" alt="事例3会社案内after" /></li>
-            <li class="case_item4"><img src="img/case1/case4.jpg" alt="事例4会社案内after" /></li>
-          </ul>
-        </div>
-        <div class="caseType">
-          <p class="caseType_text">Type B</p>
-        </div>
-      </div>
-    </article>
-  </section>
-<!-- 制作事例 end-->
-<!-- 制作カテゴリー -->
-<div id="category_top" class="negaMa"></div>
-<section class="category">
-    <article class="categoryArea">
-      <h2 class="category__title"><img src="img/case1/categoryTitle.png" alt="制作カテゴリー"></h2>
-      <h3 class="category__lead">さまざまな業種や種類の資料作成に対応できます</h3>
-      <div class="categoryArea_box">
-        <ul class="categoryArea_boxType">
-          <li class="categoryArea_boxType__text categoryArea_boxType__textOn">営業資料<br>
-            サービス提案資料</li>
-          <li class="categoryArea_boxType__text">媒体資料</li>
-          <li class="categoryArea_boxType__text">プレゼン資料</li>
-          <li class="categoryArea_boxType__text">企画書<br>
-            提案資料</li>
-        </ul>
-        <div class="categoryArea_boxDocument">
-          <figure class="categoryArea_boxDocument__img categoryDocument1"><img src="img/case1/categoryCase1.jpg" alt="SPOTS決算説明資料"></figure>
-          <figure class="categoryArea_boxDocument__img categoryDocument2"><img src="img/case1/categoryCase2.jpg" alt="SPOTS採用説明会"></figure>
-          <figure class="categoryArea_boxDocument__img categoryDocument3"><img src="img/case1/categoryCase1.jpg" alt="SPOTS決算説明資料"></figure>
-          <figure class="categoryArea_boxDocument__img categoryDocument4"><img src="img/case1/categoryCase2.jpg" alt="SPOTS採用説明会"></figure> 
-        </div>
-      </div>
-      <table class="categoryArea_table">
-        <tbody>
-          <tr>
-            <td>営業資料</td>
-            <td>企画書</td>
-            <td>講演資料</td>
-            <td>セミナー資料</td>
-          </tr>
-          <tr>
-            <td>提案書</td>
-            <td>事業計画書</td>
-            <td>採用説明会資料</td>
-            <td>マニュアル</td>
-          </tr>
-          <tr>
-            <td>プレゼン資料</td>
-            <td>媒体資料</td>
-            <td>学会発表資料</td>
-            <td>ホワイトペーパー</td>
-          </tr>
-        </tbody>
-      </table>
-    </article>
-  </section>
-<!-- 制作カテゴリー end-->
-<!-- 料金プラン -->
-<div id="plan_top" class="negaMa"></div>
-<section class="plan">
-    <article class="planArea">
-        <h2 class="planArea_box__title"><img src="img/plan/planTitle.png" alt="料金プラン"></h2>
-    <div class="planArea_box">
-        <div class="planArea_box_in">
-            <h4 class="planArea_box_in__title">ルールは1つ</h4>
-            <h2 class="planArea_box_in__titleSub">元になるパワーポイント<br>資料をご提供ください</h2>
-            <p class="planArea_box_in__text">
-                テキストや内容の企画構成は行いません。</p>
-                <div class="plan_line"></div>
-            <h3 class="planArea_box_in__titleSub">今ある資料のデザインを<br>作り直すサービスです
-            </h3>
-            <p class="planArea_box_in__text ">デザイン制作のみに特化したサービスです。<br>企画構成を含まないので大幅に工数をカットし
-                低価格でスピード納品を実現しました。</p>
-            <p class="planArea_box_in__an ">制作に使用するイラストや画像素材はフリー素材での対応となります。<br>
-                イラスト書き起こし、写真撮影は行いません。</p>
-        </div>
-        <div class="aboutArea_planBox_in planArea_box_in planArea_box_in2">
-            <div class="aboutArea_planBox_in2_content planArea_box_in2_content">
-                <h4 class="aboutArea_planBox_in2_content__title planArea_box_in2_content__title">パワーポイント資料<span class="aboutArea_planBox_in2_content__titleBgb planArea_box_in2_content__titleBgb">リデザイン制作  一式</span></h4>
-                <h2 class="aboutArea_planBox_in2_content__price planArea_box_in2_content__price">基本料金<span class="aboutArea_planBox_in2_content__priceMin planArea_box_in2_content__priceMin">60,000</span>円</h2>
-                <p class="planArea_box_in2__text">（10ページまでのデザイン料金を含みます）</p>
-            <p class="aboutArea_planBox_in__an planArea_box_in__an">制作事例に掲載OKの方はさらに<span class="textRed">10,000円お値引き</span></p>
-            </div>
-            
-            <div class="aboutArea_planBox_in2_content2 planArea_box_in2_content2">
-                <div class="aboutArea__plus planArea__plus">+</div>
-                <h4 class="aboutArea_planBox_in2_content2__plice planArea_box_in2_content2__plice">11ページ以降<span class="content2_plice__main content2_plice__main">5,000</span><span class="textRed">円</span>/ 1ページ</h4>
-                <p class="planArea_box_in2_content2__ex">【例.15ページの場合】<br>
-                    基本料金60,000円(10ページ)&nbsp;&nbsp;＋&nbsp;&nbsp;25,000円(追加5ページ)<br>
-                    ＝&nbsp;&nbsp;85,000円(料金は税別価格です) </p>
-            </div>
-        </div>
     </div>
-    <div class="planArea__btnBox">
-        <a href="" class="common_application__btn planArea__application__btn">資料請求・お問い合わせ</a>
-        <a href="" class="common_contact__btn planArea__contact__btn">お申し込み</a>
-    </div>
-</article>
-</section>
-<!-- 料金プラン end-->
-<!-- 制作フロー -->
-<div id="flow_top" class="negaMa"></div>
-<section class="flow">
-<article class="flowArea">
-    <h2 class="flowArea__title"><img src="img/flow/flowTitle.png" alt="制作フロー"></h2>
-    
-    <div class="flow_taskArea">
-        <p class="flow_taskArea__task">タスク:</p>
-        <p class="flow_taskArea__cus"><span class="flow_taskArea__circle circle_w"></span>お客様</p>
-        <p class="flow_taskArea__spots"><span class="flow_taskArea__circle circle_n"></span>SPOTS</p>
-    </div>
-    <div class="flowArea_box">
-        <div class="flowArea_box_content">
-            <h4 class="flowArea_box_content__title">お申し込み</h4>
-            <p class="flowArea_box_content__text">お申し込みフォームからサービス利用規約に同意いただきお申し込みいただきます。</p>
-        </div>
-       
-        <div class="flowArea_box_content">
-            <h4 class="flowArea_box_content__title">ヒアリング</h4>
-            <p class="flowArea_box_content__text">お申し込みをいただきましたら担当よりご連絡差し上げます。
-                その際に現状のパワーポイントデータをいただき、詳細をお伺いさせていただきます。</p>
-        </div>
-        
-        <div class="flowArea_box_content">
-            <h4 class="flowArea_box_content__title">初稿の提出</h4>
-            <p class="flowArea_box_content__text">初稿は2ページほどお出ししてデザインのご確認をしていただきます。
-                全体のトーン＆マナーとして問題なければ残りのデザインを進めさせていただきます。</p>
-        </div>
-       
-        <div class="flowArea_box_content">
-            <h4 class="flowArea_box_content__title">残りページ提出</h4>
-            <p class="flowArea_box_content__text">全てのデザインのご連絡を差し上げますので、ご確認ください。</p>
-        </div>
-        
-        <div class="flowArea_box_content">
-            <h4 class="flowArea_box_content__title">確認・修正</h4>
-            <p class="flowArea_box_content__text">デザインをご確認いただき必要に応じて修正指示をお出しください。</p>
-        </div>
-       
-        <div class="flowArea_box_content">
-            <h4 class="flowArea_box_content__title">納品</h4>
-            <p class="flowArea_box_content__text">修正作業を行った後、校了指示をいただきましたらデータ納品となります。</p>
-        </div>
-        
-        <div class="flowArea_box_content">
-            <h4 class="flowArea_box_content__title">検収・お支払い</h4>
-            <p class="flowArea_box_content__text">納品データをいただき、代金をお支払いいただきます。
-                お支払い方法はクレジット決済または銀行振込になります。</p>
-        </div>
-    </div>
-</article>
-</section>
-<!-- 制作フロー end-->
+</body>
 
-<!-- よくある質問 -->
-<div id="fqa_top" class="negaMa"></div>
-<section class="question">
-    <h2 class="question__title ">よくある質問</h2>
-    <div class="questionArea">
-        <dl class="questionBox">
-            <figure class="question_nunber"><img src="img/faq/1.png"></figure>
-            <dt class="questionText">
-                <p class="questionText__q">なぜこんなに安くできるの？クオリティは大丈夫？</p>
-            </dt>
-            <dd class="questionAnswer">
-                <p class="questionAnswer__text">
-                    パワポスポットでは企画構成を行わず、現状のパワーポイント資料を元にデザインをブラッシュアップし
-ます。なので一般的には、営業・ディレクター・デザイナー・進行管理など複数のスペシャリストが携わ
-りますが、当サービスではデザイナーのみで人件費を大幅にカットできていて、高いデザインクオリティ
-のご提供を実現しています。
-                </p>
-            </dd>
-        </dl>
-        <dl class="questionBox">
-            <figure class="question_nunber"><img src="img/faq/2.png"></figure>
-            <dt class="questionText">
-                <p class="questionText__q">発注後から納品までの期間はどの程度ですか？</p>
-            </dt>
-            <dd class="questionAnswer">
-                <p class="questionAnswer__text">
-                    発注内容によって異なりますが10ページのご依頼の場合、初稿のご提出は約5~8営業日、納品目安が約10~15営業日が目安となります。
-                </p>
-            </dd>
-        </dl>
-        <dl class="questionBox">
-            <figure class="question_nunber"><img src="img/faq/3.png"></figure>
-            <dt class="questionText">
-                <p class="questionText__q">修正回数に制限はありますか？</p>
-            </dt>
-            <dd class="questionAnswer">
-                <p class="questionAnswer__text">
-                    原則、デザインに関する修正は3回、テキストなどの簡易な修正は5回までとなっております。
-                </p>
-            </dd>
-        </dl>
-        <dl class="questionBox">
-            <figure class="question_nunber"><img src="img/faq/4.png"></figure>
-            <dt class="questionText">
-                <p class="questionText__q">決算資料のデザインを依頼したいのですが、機密情報が含まれています。
-                    機密情報の取り扱いはどうなっていますか？</p>
-            </dt>
-            <dd class="questionAnswer">
-                <p class="questionAnswer__text">
-                    制作着手前の秘密保持契約の締結が可能ですので、事前にご契約が必要な場合はその旨をお伝えください。
-                </p>
-            </dd>
-        </dl>
-        <dl class="questionBox">
-            <figure class="question_nunber"><img src="img/faq/5.png"></figure>
-            <dt class="questionText">
-                <p class="questionText__q">編集可能なデータで納品していただくことは可能でしょうか？</p>
-            </dt>
-            <dd class="questionAnswer">
-                <p class="questionAnswer__text">
-                    はい。弊社では基本的にPowerPointデータで納品させていただくため、お客様側での編集が可能です。
-                    一部、テキストを画像化している素材は編集が難しい場合がございますので、編集したい箇所はあらかじめお知らせください
-                </p>
-            </dd>
-        </dl>
-        <dl class="questionBox">
-            <figure class="question_nunber"><img src="img/faq/6.png"></figure>
-            <dt class="questionText">
-                <p class="questionText__q">納期の短縮は可能？</p>
-            </dt>
-            <dd class="questionAnswer">
-                <p class="questionAnswer__text">
-                    ご依頼のスライド数や内容によりますが、なるべく柔軟に対応したいと思います。
-                    詳しくはお問い合わせください。
-                </p>
-            </dd>
-        </dl>
-        <dl class="questionBox">
-            <figure class="question_nunber"><img src="img/faq/7.png"></figure>
-            <dt class="questionText">
-                <p class="questionText__q">支払方法を教えてください。</p>
-            </dt>
-            <dd class="questionAnswer">
-                <p class="questionAnswer__text">
-                    お支払い方法は検収完了後にWebでのクレジット決済または請求書による銀行振込になります。
-                </p>
-            </dd>
-        </dl>
-    </div>
-
-</section>
-<!-- よくある質問 end-->
-<!-- フッター -->
-<footer class="footer">
-<article class="footerArea">
-    <div class="footerArea_logo">
-        <figure class="footer_logo"><img src="img/mv/mainLogo.png" alt="SPOTSロゴ"></figure>
-    </div>
-        <div class="footerArea__btnBox">
-            <a href="" class="common_application__btn footerArea__application__btn">資料請求・お問い合わせ</a>
-            <a href="" class="common_contact__btn footerArea__contact__btn">お申し込み</a>
-        </div>
-</article>
-<div class="footerBox">
-    <div class="footerBox_in">
-        <ul class="footerBox_menu">
-            <li class="footerBox_menu__text"><a href="" class="footerBox_menu__link">会社概要</a></li>
-            <li class="footerBox_menu__text"><a href="" class="footerBox_menu__link">プライバシーポリシー</a></li>
-        </ul>
-        <p class="copy">&copy; SPOTS. All Rights Reserved.</p>
-    </div>
-</div>
-</footer>
-<!-- フッター end-->
-
-        </div>
-    </body>
-    </html>
+</html>
