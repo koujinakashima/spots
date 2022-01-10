@@ -1,0 +1,52 @@
+/* ----------------------------------------
+共通css(common)
+---------------------------------------- */
+$ColorNavy:#000084;
+$Colorwht:#fff;
+$ColorGry1:#E0E0E0;
+$ColorGry2:#D8D8D8;
+$Colorred:#B90007;
+
+body {
+    font-family: YuGothic, "Yu Gothic Medium", "Yu Gothic", "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", Meiryo, sans-serif;
+	color: $ColorNavy;
+	position: relative;
+}
+@media all and (-ms-high-contrast: none) {
+	body {
+		font-family: "メイリオ", Meiryo, "游ゴシック", YuGothic,
+			"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "ＭＳ Ｐゴシック",
+			"MS PGothic", sans-serif;
+	}
+}
+ .uppercase{
+     text-transform: uppercase;
+ }
+ .oswald{
+    font-family: 'Oswald', sans-serif;
+ }
+.sp_tel {
+	pointer-events: none;
+}
+.pc_none1000 {
+	display: none;
+}
+.sp_none1000 {
+	display: block;
+}
+.pc_none480 {
+	display: none;
+}
+.sp_none480 {
+	display: block;
+}
+.op_link{
+	transition-duration: 300ms;
+}
+.op_link:hover{
+	transition-duration: 300ms;
+	opacity: 0.7;
+}
+.wrapper{
+    position: relative;
+}

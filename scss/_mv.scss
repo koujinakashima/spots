@@ -1,0 +1,281 @@
+/* ----------------------------------------
+メインビジュアル、メニュー
+---------------------------------------- */
+.mv {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/mv/mainBg.jpg);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+	.mv_logo {
+        width: 500px;
+        margin: 0 0 0 150px;
+}
+}
+/* お申し込みボタン */
+.fixed_contact {
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    width: 130px;
+    z-index: 2000;
+	.fixed_contact_in {
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+		.fixedCircle {
+            width: 100%;
+        position: relative;
+        z-index: 90;
+		}
+		.fixedMail {
+            width: 38px;
+        position: absolute;
+        z-index: 100;
+		}
+	}
+}
+/* MV下のスライダー */
+.mvSlider {
+    width: 100%;
+    background-image: url(../img/common/dot_bg.png);
+    background-size: 9px;
+    position: relative;
+    background-repeat: repeat;
+    z-index: 500;
+	.mvSlider_area {
+        width: 100%;
+        position: relative;
+        top: -30px;
+		.mvSlider_area__in {
+            width: 100%;
+			.mvSlider_imgBox {
+                img{
+                    width: 270px;
+                }
+			}
+		}
+	}
+}
+/* メニュー */
+.header_top{
+    position: sticky;
+    top: 20px;
+    z-index: 1000;
+    margin: 15px auto 0;
+}
+.header_top::after{
+    content: '';
+    display: inline-block;
+     width: 158px;
+    height: 35px;
+    background-image: url(../img/common/commonLogo.png);
+    background-size: contain;
+    vertical-align: middle;
+    position: absolute;
+    right: -35px;
+    bottom: -110px;
+    z-index: 100;
+    background-repeat: no-repeat;
+    transform:rotate(90deg);
+}
+
+.global-nav {
+    display: flex;
+    justify-content: flex-end;
+	.global-box {
+        display: flex;
+		.global-box__list {
+            margin: 0 25px 0 0;
+
+            .global-box__list--text{
+                color: $ColorNavy;
+                font-size: 12px;
+            }
+            .global-box__list--text:last-of-type{
+                margin: 0 0 0;
+            }
+		}
+	}
+}
+/* ----------------------------------------
+アバウト
+---------------------------------------- */
+.about {
+	.aboutArea {
+        width: 1100px ;
+        margin: 70px auto 0;
+		.aboutArea_in {
+            display: flex;
+            justify-content: space-between;
+			.aboutArea_inbox {
+                width: 400px;
+                display: flex;
+                flex-direction: column;
+                justify-content:space-between;
+				.aboutArea_inbox__title {
+                    font-size: 57px;
+                    font-weight: bold;
+                    line-height: 57px;
+                    letter-spacing: 0.01em;
+					.aboutArea_inbox__title2 {
+                        font-size: 44px;
+                    font-weight: bold;
+                    letter-spacing: 0;
+					}
+				}
+				.aboutArea_inbox__text {
+                    font-size: 25px;
+                    line-height: 44px;
+                    margin: -15px 0 0;
+				}
+				.aboutArea_inbox__img {
+                    width: 100%;
+                    /* margin: 40px 0 0; */
+				}
+			}
+			.aboutArea__titleImg {
+                width: 200px;
+			}
+			.aboutArea_inBox {
+                width: 400px;
+                display: flex;
+                flex-direction: column;
+                justify-content:space-between;
+				.aboutArea_inbox__title2 {
+                    font-size: 66px;
+                    font-weight: bold;
+                    line-height: 100%;
+                    letter-spacing: 0.02em;
+				}
+			}
+		}
+		.aboutArea__text {
+            font-size: 20px;
+            letter-spacing: 0.05em;
+            margin: 70px 0 0;
+            line-height: 38px;
+		}
+	}
+}
+/* アバウトの料金プラン */
+.aboutArea_plan {
+    /* margin: 100px 0 0;
+    border-top: solid 1px $ColorNavy;
+    border-bottom: solid 1px $ColorNavy; */
+    @include aboutArea_plan(solid 1px #000084);
+	.aboutArea_planBox {
+        /* width: 1100px;
+        margin: 0 auto;
+        border-left: solid 1px $ColorNavy;
+        border-right: solid 1px $ColorNavy;
+        display: flex; */
+        @include aboutArea_planBox(#000084);
+		.aboutArea_planBox_in {
+            @include aboutArea_planBox_in (#000084)
+            /* width: 50%;
+            border-right: solid 1px $ColorNavy;
+            padding: 65px 70px;
+            letter-spacing: 0.02em; */
+			.aboutArea_planBox_in__title {
+             width: 100%;
+			}
+			.aboutArea_planBox_in__titleSub {
+                font-size: 62px;
+                font-weight: bold;
+			}
+			.aboutArea_planBox_in__text {
+                font-size: 36px;
+                font-weight: bold;
+                line-height: 50px;
+			}
+            .aboutArea_planBox_in__textSub{
+                font-size: 16px;
+                margin: 20px 0 0;
+            }
+			.common_contact__btn {
+                @include common_contact__btn;
+                /* font-size: 20px;
+                font-weight: bold;
+                background-color: #FFE200;
+                border-radius: 5px;
+                display: flex;
+                align-items: center;
+                width: 390px;
+                margin: 30px auto 0;
+                display: block;
+                text-align: center;
+                padding: 15px 0; */
+			}
+		}
+		.aboutArea_planBox_in.aboutArea_planBox_in2 {
+            border-right: none;
+            text-align: center;
+            padding: 0;
+			.aboutArea_planBox_in2_content {
+                padding: 65px 0;
+				.aboutArea_planBox_in2_content__title {
+                    font-size: 20px;
+                    font-weight: bold;
+                    
+					.aboutArea_planBox_in2_content__titleBgb {
+                        background-color: $ColorNavy;
+                        color: $Colorwht;
+                        padding: 8px;
+                        border-radius: 5px;
+                        margin: 0 0 0 10px;
+					}
+				}
+				.aboutArea_planBox_in2_content__price {
+                    font-size: 34px;
+                    font-weight: bold;
+                    color: $Colorred;
+                    margin: 5px 0 0;
+					.aboutArea_planBox_in2_content__priceMin {
+                        font-size: 70px;
+                        transform: scale(0.95 ,1);
+                        display: inline-block;
+					}
+				}
+				.aboutArea_planBox_in2__text {
+                    font-size: 16px;
+                    font-weight: bold;
+                    margin: 20px 0 0;
+				}
+				.aboutArea_planBox_in__an {
+                    font-size: 16px;
+                    margin: 25px 0 0;
+					.textRed {
+                        color: $Colorred;
+					}
+				}
+			}
+			.aboutArea_planBox_in2_content2 {
+                border-top: solid 1px $ColorNavy;
+                padding: 10px 0 0;
+                text-align: center;
+                
+				.aboutArea__plus {
+                    font-size: 40px;
+                    font-weight: bold;
+				}
+				.aboutArea_planBox_in2_content2__plice {
+                    font-size: 20px;
+                    font-weight: bold;
+					.content2_plice__main {
+                        font-size: 50px;
+                        color: $Colorred;
+                        transform: scale(0.95, 1);
+                        display: inline-block;
+					}
+					.textRed {
+                        color: $Colorred;
+                        font-size: 25px;
+					}
+				}
+			}
+		}
+	}
+}

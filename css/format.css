@@ -1,0 +1,75 @@
+@charset "UTF-8";
+
+html {
+margin: 0px;
+padding: 0px;
+height: 100%;
+}
+body {
+margin: 0px;
+padding: 0px;
+min-height: 100%;
+font-size: 10px;
+line-height: 1.5;
+}
+
+/*セクショニング*/
+dt,
+dl,
+dd,
+nav,
+header,
+footer,
+section,
+article,
+aside,
+div,
+iframe {
+margin: 0px;
+padding: 0px;
+}
+
+
+/*情報関連*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+figure,
+figcaption {
+font-size: 100%;
+font-weight: 400;
+margin: 0px;
+padding: 0px;
+}
+
+ul,
+ol,
+li{
+  list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/*よく使う汎用クラス*/
+.clearfix::after {
+content: "";
+display: block;
+clear: both;
+}
+a{
+    text-decoration: none;
+    color:#000;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+img { width: 100%;
+vertical-align: top}
+*{ outline: none;}

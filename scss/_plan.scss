@@ -1,0 +1,72 @@
+/* ----------------------------------------
+料金プラン
+---------------------------------------- */
+.plan {
+    background-color: $ColorNavy;
+	.planArea {
+
+        /* width: 1100px;
+        margin: 115px auto 0; */
+		.planArea_box__title {
+            width: 450px;
+            margin: 0 0 0 auto;
+            position: relative;
+            top: -6px;
+		}
+		.planArea_box {
+			@include aboutArea_plan(solid 1px #fff) {
+				background-color: #000;
+			}
+			.planArea_box_in {
+				
+				@include aboutArea_planBox(#fff)
+				.planArea_box_in__title {
+				}
+				.planArea_box_in__titleSub {
+				}
+				.planArea_box_in__text {
+				}
+				.plan_line {
+				}
+				.planArea_box_in__an {
+				}
+			}
+			.aboutArea_planBox_in.planArea_box_in.planArea_box_in2 {
+				.aboutArea_planBox_in2_content.planArea_box_in2_content {
+					.aboutArea_planBox_in2_content__title.planArea_box_in2_content__title {
+						.aboutArea_planBox_in2_content__titleBgb.planArea_box_in2_content__titleBgb {
+						}
+					}
+					.aboutArea_planBox_in2_content__price.planArea_box_in2_content__price {
+						.aboutArea_planBox_in2_content__priceMin.planArea_box_in2_content__priceMin {
+						}
+					}
+					.planArea_box_in2__text {
+					}
+					.aboutArea_planBox_in__an.planArea_box_in__an {
+						.textRed {
+						}
+					}
+				}
+				.aboutArea_planBox_in2_content2.planArea_box_in2_content2 {
+					.aboutArea__plus.planArea__plus {
+					}
+					.aboutArea_planBox_in2_content2__plice.planArea_box_in2_content2__plice {
+						.content2_plice__main.content2_plice__main {
+						}
+						.textRed {
+						}
+					}
+					.planArea_box_in2_content2__ex {
+					}
+				}
+			}
+		}
+		.planArea__btnBox {
+			.common_application__btn.planArea__application__btn {
+			}
+			.common_contact__btn.planArea__contact__btn {
+			}
+		}
+	}
+}
